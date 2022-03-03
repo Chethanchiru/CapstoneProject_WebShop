@@ -5,16 +5,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/***
+ * 
+ * @author Chethan
+ *
+ */
+
 public class WishListPage {
 
 	//constructor
 	public WishListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	//Data members or attributes
 	@FindBy(name="addtocart") private WebElement addtocartCheckBox;
-	
+
 	@FindBy(name="addtocartbutton") private WebElement addtocartbutton;
 
 	//getters methods

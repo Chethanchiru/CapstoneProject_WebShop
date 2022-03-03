@@ -7,7 +7,7 @@ import java.util.Properties;
 
 /***
  * 
- * @author Chethan V
+ * @author Yogitha
  *
  */
 public class PropertyFileReader implements FrameworkConstants{

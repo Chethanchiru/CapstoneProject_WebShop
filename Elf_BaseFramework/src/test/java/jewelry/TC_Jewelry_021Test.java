@@ -13,7 +13,7 @@ import pomRepository.JewelryPage;
 
 /***
  * 
- * @author Chethan V
+ * @author Chethan 
  *
  */
 
